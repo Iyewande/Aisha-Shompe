@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/234de0dee3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="flex fixed justify-between items-center top-0 right-0 left-0 px-[100px] py-[20px] bg-blue-600 text-white"
+    >
+      <h3 class="font-serif font-bold text-[30px]">Asham</h3>
+      <ul class="font-cinzel list-none flex gap-5 text-[20px]">
+        <a class="hover:text-red-600" href="#about"><li>About</li></a>
+        <a class="hover:text-red-600" href="expertise"><li>Expertise</li></a>
+        <a class="hover:text-red-600" href="projects"><li>Projects</li></a>
+        <a class="hover:text-red-600" href="contatact"><li>Contact</li></a>
+      </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section
+      class="px-10 lg:px-[200px] flex flex-col-reverse gap-3 lg:gap-[120px] lg:flex-row justify-between items-center mt-[50px] lg:mt-[150px]"
+    >
+      <div class="flex flex-col gap-5 items-start text-[20px]">
+        <h1 class="text-[24px] font-bold">Hello👋, I'm Aisha Shomope</h1>
+        <p class="text-justify">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Omnis, Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Omnis, ducimus.
+        </p>
+        <button
+          class="bg-blue-600 font-bold p-4 text-white text-[22px] w-[200px]"
+        >
+          <a href="">Download Cv</a>
+        </button>
+      </div>
+      <img
+        class="h-[400px] w-[450px] rounded-lg"
+        src="./image/E17CF07F-F5B1-4C94-9C3E-8D25C5FEC29B.jpg"
+        alt="image"
+      />
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section
+      class="px-10 lg:px-[200px] flex flex-col justify-center items-center gap-6 mt-10 lg:mt-[200px]"
+    >
+      <h1 class="text-[30px] font-bold">About</h1>
+      <p class="text-[20px] text-center">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+        dolorem ipsum, nobis neque quo nostrum deserunt voluptatum porro,
+        assumenda minima incidunt? Neque aperiam, fugiat quos sunt amet
+        quibusdam molestiae eaque! Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Adipisci dolorem ipsum, nobis neque quo nostrum
+        deserunt voluptatum porro, assumenda minima incidunt? Neque aperiam,
+        fugiat quos sunt amet quibusdam molestiae eaque!
+      </p>
+    </section>
+
+    <!-- SKILLS SECTIONS -->
+    <section
+      class="flex flex-col justify-center items-center gap-8 px-10 lg:px-[200px] mt-5 lg:mt-[150px] mb-[150px]"
+    >
+      <h1 class="text-[30px] font-bold">Skills</h1>
+      <div class="flex flex-col lg:flex-row gap-4 lg:gap-10">
+        <div
+          class="bg-blue-600 gap-5 p-10 rounded-xl w-[90%] lg:w-[500px] h-[400px]"
+        >
+          <h3 class="text-[25px] font-bold text-white">Technical Skills</h3>
+          <ul
+            class="flex flex-col items-start gap-8 text-white text-[20px] font-bold"
+          >
+            <li class="flex gap-4">
+              <p><i class="fa-solid fa-circle-check"></i></p>
+              <p>HTML</p>
+            </li>
+            <li class="flex gap-4">
+              <p><i class="fa-solid fa-circle-check"></i></p>
+              <p>CSS</p>
+            </li>
+            <li class="flex gap-4">
+              <p><i class="fa-solid fa-circle-check"></i></p>
+              <p>JavaScript</p>
+            </li>
+            <li class="flex gap-4">
+              <p><i class="fa-solid fa-circle-check"></i></p>
+              <p>UI/UX</p>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bg-blue-600 gap-6 p-10 rounded-xl w-[90%] lg:w-[500px] h-[400px]"
+        >
+          <h3 class="text-[25px] font-bold text-white">Soft Skills</h3>
+          <ul
+            class="flex flex-col items-start gap-8 text-white text-[20px] font-bold"
+          >
+            <li class="flex gap-4">
+              <p><i class="fa-solid fa-circle-check"></i></p>
+              <p>Problem Solving</p>
+            </li>
+            <li class="flex gap-4">
+              <p><i class="fa-solid fa-circle-check"></i></p>
+              <p>Time management</p>
+            </li>
+            <li class="flex gap-4">
+              <p><i class="fa-solid fa-circle-check"></i></p>
+              <p>Teamwork</p>
+            </li>
+            <li class="flex gap-4">
+              <p><i class="fa-solid fa-circle-check"></i></p>
+              <p>Creativity</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col justify-center lg:px-[200px]" id="contact">
+      <h1 class="text-[30px] font-bold">Contact</h1>
+      <form class="w-full">
+        <div>
+          <label for="name" class="block"> Name</label>
+          <input
+            class="w-[300px] p-1 border-2 border-black"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your name"
+          />
+        </div>
+        <div>
+          <label for="email" class="block"> Email</label>
+          <input
+            class="w-[300px] p-1 border-2 border-black"
+            type="text"
+            name="name"
+            id="email"
+            placeholder="Enter Your email"
+          />
+        </div>
+        <div>
+          <label for="message" class="block"> Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter your message"
+            cols="30"
+            rows="10"
+            class="w-[300px] p-4 border-2 border-black"
+          ></textarea>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
